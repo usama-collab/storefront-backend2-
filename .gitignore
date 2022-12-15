@@ -1,0 +1,10 @@
+*.pyc
+# /media/
+general.log
+# inf.txt
+.env
+venv-StorefrontBackend2
+
+# CUSTOM
+ca-certificate.crt
+dev-help.txt
