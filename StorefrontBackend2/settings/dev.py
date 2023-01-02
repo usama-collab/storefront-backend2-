@@ -67,6 +67,7 @@ CACHES = {
 # email
 from ..email.email_conf import *  # noqa
 
+
 DEBUG_TOOLBAR_CONFIG = {
     'SHOW_TOOLBAR_CALLBACK': lambda request: True
 }
