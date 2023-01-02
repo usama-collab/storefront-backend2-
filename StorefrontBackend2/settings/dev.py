@@ -46,8 +46,8 @@ DATABASES = {
         'NAME': os.getenv('PROD_DB_NAME'),
         'USER': os.getenv('PROD_DB_USER'),
         'PASSWORD': os.getenv('PROD_DB_PASSWORD'),
-        'HOST': "app-f50b6b84-f0cf-46fb-ae93-f8b96dde1e70-do-user-12706543-0.b.db.ondigitalocean.com",
-        'PORT': "25060"
+        'HOST': os.getenv("PROD_DB_HOST"),
+        'PORT': os.getenv("PROD_DB_PORT")
     }
 }
 
